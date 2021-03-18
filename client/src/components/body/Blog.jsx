@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Home extends Component {
+export default class Blog extends Component {
     state = {  }
     render() { 
         return ( 
-            <div className="home">
-                homo
+            <div className="blog">
+                blogo
             </div>
          );
     }

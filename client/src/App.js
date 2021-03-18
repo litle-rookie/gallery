@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 import Home from './components/body/Home';
 import Photos from './components/body/Photos';
+import Videos from './components/body/Videos';
+import Blogs from './components/body/Blog';
+import About from './components/body/About';
 
 function App() {
   return (
@@ -16,7 +19,7 @@ function App() {
             <Route exact path="/Photos">
               <Photos />
             </Route>
-            {/* <Route exact path="/Videos">
+            <Route exact path="/Videos">
               <Videos />
             </Route>
             <Route exact path="/Blogs">
@@ -24,7 +27,7 @@ function App() {
             </Route>
             <Route exact path="/About">
               <About />
-            </Route> */}
+            </Route>
           </Switch>
       </div>
     </Router>
