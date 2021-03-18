@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+a{
+  font-size: 1.1rem;
+  float: inline-end;
+  width: 6rem;
+  margin: 1.5px 0;
+  padding: 1.4rem 1rem;
+  color: #3b3b3b;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #F7DD09;
+  transition: .3s;
+}
